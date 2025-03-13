@@ -29,4 +29,4 @@ app.use('/api/comment', commentRoute)
 
 app.listen($PORT, ()=> console.log(`Server listening on port ${$PORT}`))
 
-app.get("/", (req, res) => res.send("Express on Vercel"));
+app.get("/", (req, res) => res.send("Express on Vercel working"));
