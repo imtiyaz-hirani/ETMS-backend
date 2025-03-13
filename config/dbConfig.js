@@ -9,5 +9,5 @@ const dbConnect = async ()=>{
         console.log('Error in connection ' + err)
     }
 }
-
+    
 module.exports = dbConnect;
